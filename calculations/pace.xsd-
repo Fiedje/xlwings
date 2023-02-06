@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="contract">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="testfallName" type="xs:string"/>
+      <xs:element name="testfallNummer" type="xs:integer"/>
+      <xs:element name="tarifName" type="xs:string"/>
+      <xs:element name="alter" type="xs:integer"/>
+      <xs:element name="geburtsjahr" type="xs:integer"/>
+      <xs:element name="geschlecht" type="xs:string"/>
+      <xs:element name="versicherungsSumme" type="xs:decimal"/>
+      <xs:element name="zahlungsweise" type="xs:string"/>
+      <xs:element name="vertragsbeginn" type="xs:string"/>
+      <xs:element name="vertragslaufzeit" type="xs:integer"/>
+      <xs:element name="beitragslaufzeit" type="xs:integer"/>
+      <xs:element name="beitragsfreie_zeit" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="product">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="tarifName" type="xs:string"/>
+      <xs:element name="rz" type="xs:decimal"/>
+      <xs:element name="aos" type="xs:string"/>
+      <xs:element name="Modifikation_fuer_gar_Rentenfaktor" type="xs:decimal"/>
+      <xs:element name="res_alpha" type="xs:decimal"/>
+      <xs:element name="ink_beta" type="xs:decimal"/>
+      <xs:element name="bpfl_gamma" type="xs:decimal"/>
+      <xs:element name="bfr_gamma" type="xs:decimal"/>
+      <xs:element name="ratenzuschlaege">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="MONATLICH" type="xs:decimal"/>
+            <xs:element name="VIERTELJAEHRLICH" type="xs:decimal"/>
+            <xs:element name="HALBJAEHRLICH" type="xs:decimal"/>
+            <xs:element name="JAEHRLICH" type="xs:decimal"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="zinsueberschuss" type="xs:decimal"/>
+      <xs:element name="risikoueberschuss" type="xs:decimal"/>
+      <xs:element name="ansammlungszins" type="xs:decimal"/>
+      <xs:element name="schlussueberschusssatzanteilssatz" type="xs:decimal"/>
+      <xs:element name="schlussueberschusssabzinssatz" type="xs:decimal"/>
+      <xs:element name="grundueberschuss" type="xs:decimal"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

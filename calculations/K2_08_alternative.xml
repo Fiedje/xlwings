@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product>
+    <item id="tarifName" type="str">K2_08</item>
+    <item id="rz" type="decimal">0.0225</item>
+    <item id="aos" type="str">DAV1994T</item>
+    <item id="Modifikation_fuer_gar_Rentenfaktor" type="decimal">0.5</item>
+    <item id="res_alpha" type="decimal">0.039</item>
+    <item id="ink_beta" type="decimal">0.059</item>
+    <item id="bpfl_gamma" type="decimal">0.0015</item>
+    <item id="bfr_gamma" type="decimal">0.00025</item>
+    <item id="ratenzuschlaege">
+        <item id="MONATLICH" type="decimal">0.05</item>
+        <item id="VIERTELJAEHRLICH" type="decimal">0.03</item>
+        <item id="HALBJAEHRLICH" type="decimal">0.02</item>
+        <item id="JAEHRLICH" type="decimal">0</item>
+    </item>
+    <item id="zinsueberschuss" type="decimal">0.0225</item>
+    <item id="risikoueberschuss" type="decimal">0.2</item>
+    <item id="ansammlungszins" type="decimal">0.05</item>
+    <item id="schlussueberschusssatzanteilssatz" type="decimal">0.006</item>
+    <item id="schlussueberschusssabzinssatz" type="decimal">0.09</item>
+    <item id="grundueberschuss" type="decimal">0.0004</item>
+</product>

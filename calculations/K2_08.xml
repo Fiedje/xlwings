@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="pace.xsd-">
+    <tarifName>K2_08</tarifName>
+    <rz>0.0225</rz>
+    <aos>DAV1994T</aos>
+    <Modifikation_fuer_gar_Rentenfaktor>0.5</Modifikation_fuer_gar_Rentenfaktor>
+    <res_alpha>0.039</res_alpha>
+    <ink_beta>0.059</ink_beta>
+    <bpfl_gamma>0.0015</bpfl_gamma>
+    <bfr_gamma>0.00025</bfr_gamma>
+    <ratenzuschlaege>
+        <MONATLICH>0.05</MONATLICH>
+        <VIERTELJAEHRLICH>0.03</VIERTELJAEHRLICH>
+        <HALBJAEHRLICH>0.02</HALBJAEHRLICH>
+        <JAEHRLICH>0</JAEHRLICH>
+    </ratenzuschlaege>
+    <zinsueberschuss>0.0225</zinsueberschuss>
+    <risikoueberschuss>0.2</risikoueberschuss>
+    <ansammlungszins>0.05</ansammlungszins>
+    <schlussueberschusssatzanteilssatz>0.006</schlussueberschusssatzanteilssatz>
+    <schlussueberschusssabzinssatz>0.09</schlussueberschusssabzinssatz>
+    <grundueberschuss>0.0004</grundueberschuss>
+</product>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contract xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="pace.xsd-">
+    <testfallName>POLIC_206_K2_08_200908_Var1</testfallName>
+    <testfallNummer>51</testfallNummer>
+    <tarifName>K2_08</tarifName>
+    <alter>38</alter>
+    <geburtsjahr>1971</geburtsjahr>
+    <geschlecht>F</geschlecht>
+    <versicherungsSumme>100000</versicherungsSumme>
+    <zahlungsweise>MONATLICH</zahlungsweise>
+    <vertragsbeginn>01.08.2009</vertragsbeginn>
+    <vertragslaufzeit>26</vertragslaufzeit>
+    <beitragslaufzeit>26</beitragslaufzeit>
+    <beitragsfreie_zeit>0</beitragsfreie_zeit>
+</contract>
